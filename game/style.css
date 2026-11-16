@@ -1,0 +1,23 @@
+/* Orbital Courier — page chrome around the canvas. */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #04061a;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game {
+  display: block;
+  background: #070b24;
+  box-shadow: 0 0 60px rgba(80, 90, 220, 0.35);
+  image-rendering: auto;
+  cursor: crosshair;
+}
